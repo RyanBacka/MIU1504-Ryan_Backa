@@ -1,20 +1,16 @@
 var table = function(){
-	//creation of second window holding tables of questions and answers
 	var qstnWin = Ti.UI.createWindow({
 		backgroundColor:"#fff",
 		scrollable: true
 	});
-	
-	//require the JSON.js File to pull data 
+
 	var loadFile = require("JSON");
 	
-	//creation of the table
 	var table = Ti.UI.createTableView({
 		style: Ti.UI.iPhone.TableViewStyle.GROUPED,
 		scrollable:true
 	});
 	
-	//creation of headers and footers for the table
 	var qstnHeader = Ti.UI.createView({
 		height:50,
 		backgroundColor: "#bdbdbd"
@@ -67,7 +63,6 @@ var table = function(){
 	
 	ansFooter.add(ansFootText);
 	
-	//creation of the sections for the table
 	var qstnSection = Ti.UI.createTableViewSection({
 		headerTitle:qstnHeader,
 		footerTitle:qstnFooter

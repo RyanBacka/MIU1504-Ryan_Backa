@@ -1,20 +1,16 @@
 var table = function(){
-	//creation of second window holding tables of questions and answers
-	var qstnWin = Ti.UI.createWindow({
+	/*var qstnWin = Ti.UI.createWindow({
 		backgroundColor:"#fff",
 		scrollable: true
-	});
-	
-	//require the JSON.js File to pull data 
+	});*/
+
 	var loadFile = require("JSON");
 	
-	//creation of the table
 	var table = Ti.UI.createTableView({
 		style: Ti.UI.iPhone.TableViewStyle.GROUPED,
 		scrollable:true
 	});
 	
-	//creation of headers and footers for the table
 	var qstnHeader = Ti.UI.createView({
 		height:50,
 		backgroundColor: "#bdbdbd"
@@ -67,7 +63,6 @@ var table = function(){
 	
 	ansFooter.add(ansFootText);
 	
-	//creation of the sections for the table
 	var qstnSection = Ti.UI.createTableViewSection({
 		headerTitle:qstnHeader,
 		footerTitle:qstnFooter
@@ -96,7 +91,7 @@ var table = function(){
   
 	//creation of the close button to go back to the main window
 	
-	var closeButton = Ti.UI.createLabel({
+	/*var closeButton = Ti.UI.createLabel({
 		text: "< Back",
 		backgroundColor:"#d8d8d8",
 		color:"#fff",
@@ -111,12 +106,12 @@ var table = function(){
 		qstnWin.close();
 	};
 	
-	closeButton.addEventListener("click", closeWindow);
+	closeButton.addEventListener("click", closeWindow);*/
 	
 	table.setData(aboutSections);
 	
-	qstnWin.add(table,closeButton);
-	qstnWin.open();
+	mainWin.add(table);
+	//qstnWin.open();
 };
 
 exports.table = table;
