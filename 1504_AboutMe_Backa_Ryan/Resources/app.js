@@ -24,3 +24,4 @@ var loadFunction = require("function");
 
 titleView.add(titleText);
 mainWin.add(titleView);
+mainWin.open;
