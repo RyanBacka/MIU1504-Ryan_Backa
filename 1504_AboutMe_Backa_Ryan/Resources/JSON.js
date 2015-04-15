@@ -1,42 +1,44 @@
 //JSON data and export to app.js
 var data = {
 		"about":{
-			"headTitle":"The Questions and Answers",
-			"footTitle":"Now you know a little about me!",
+			"qstnHead":"Questions",
+			"qstnFoot":"Now on to the answers!",
+			"ansHead":"Answers",
+			"ansFoot":"Now you know a little about me!",
 			"qstnAns":[
 				{
-					"qstn":"What is your name?",
-					"ansr":"Ryan Kane Backa"
+					"qstn":"1. What is your name?",
+					"ansr":"1. Ryan Kane Backa"
 				},{
-					"qstn":"What is your chat user name, including the host?",
-					"ansr":"RKBacka on AIM"
+					"qstn":"2. What is your chat user name, including the host?",
+					"ansr":"2. RKBacka on AIM"
 				},{
-					"qstn":"In what time zone do you reside?",
-					"ansr":"Eastern"
+					"qstn":"3. In what time zone do you reside?",
+					"ansr":"3. Eastern"
 				},{
-					"qstn":"Why are you in the Mobile Development program?",
-					"ansr":"I enjoy coding, and I am very interested by mobile apps, and the progression of the mobile market in its short existence."
+					"qstn":"4. Why are you in the Mobile Development program?",
+					"ansr":"4. I enjoy coding, and I am very interested by mobile apps, and the progression of the mobile market in its short existence."
 				},{
-					"qstn":"How comfortable are you with JavaScript?",
-					"ansr":"I am extremely comfortable with what I have learned so far."
+					"qstn":"5. How comfortable are you with JavaScript?",
+					"ansr":"5. I am extremely comfortable with what I have learned so far."
 				},{
-					"qstn":"How comfortable are you with Titanium?",
-					"ansr":"I am comfortable with what I have learned about Titanium thus far."
+					"qstn":"6. How comfortable are you with Titanium?",
+					"ansr":"6. I am comfortable with what I have learned about Titanium thus far."
 				},{
-					"qstn":"What is your favorite sport?",
-					"ansr":"Hockey"
+					"qstn":"7. What is your favorite sport?",
+					"ansr":"7. Hockey"
 				},{
-					"qstn":"What kind of work do you do?",
-					"ansr":"I am self-employed as a Flowback Operator in the Pennsylvania oilfields."
+					"qstn":"8. What kind of work do you do?",
+					"ansr":"8. I am self-employed as a Flowback Operator in the Pennsylvania oilfields."
 				},{
-					"qstn":"What is your favorite TV show?",
-					"ansr":"Archer"
+					"qstn":"9. What is your favorite TV show?",
+					"ansr":"9. Archer"
 				},{
-					"qstn":"What is your favorite food?",
-					"ansr":"Chicken Paprikash"
+					"qstn":"10. What is your favorite food?",
+					"ansr":"10. Chicken Paprikash"
 				},{
-					"qstn":"What is your favorite color?",
-					"ansr":"Yellow"
+					"qstn":"11. What is your favorite color?",
+					"ansr":"11. Yellow"
 			}]
 		}
 	};
