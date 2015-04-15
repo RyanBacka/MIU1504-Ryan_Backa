@@ -29,7 +29,7 @@ var buttonView = Ti.UI.createView({
 	backgroundColor:"#58db41",
 	borderRadius:5,
 	borderWidth:1,
-	borderColor:"#000"
+	borderColor:"#fff"
 });
 
 var buttonText = Ti.UI.createLabel({

@@ -103,7 +103,7 @@ var table = function(){
 	});
 	
 	var closeWindow = function(){
-		qstnWin.close();
+		qstnWindow.close();
 	};
 	
 	closeButton.addEventListener("click", closeWindow);

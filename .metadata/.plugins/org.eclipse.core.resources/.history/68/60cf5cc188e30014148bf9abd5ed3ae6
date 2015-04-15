@@ -24,12 +24,7 @@ var titleText = Ti.UI.createLabel({
 var buttonView = Ti.UI.createView({
 	top:titleView.top+titleView.height+40,
 	height:25,
-	left:20,
-	right:20,
-	backgroundColor:"#58db41",
-	borderRadius:5,
-	borderWidth:1,
-	borderColor:"#000"
+	backgroundColor:"#58db41"
 });
 
 var buttonText = Ti.UI.createLabel({

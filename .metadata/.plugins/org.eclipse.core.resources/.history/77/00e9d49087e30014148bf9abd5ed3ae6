@@ -17,7 +17,7 @@ var table = function(){
 	});
 	
 	var qstnHeadText =Ti.UI.createLabel({
-		text: loadFile.data.about.qstnHeadTitle,
+		text: loadFile.data.about.qstnHead,
 		font: {fontSize: 14, fontFamily: "Arial"},
 		color:"#fff"
 	});
@@ -30,7 +30,7 @@ var table = function(){
 	});
 	
 	var qstnFootText =Ti.UI.createLabel({
-		text: loadFile.data.about.qstnFootTitle,
+		text: loadFile.data.about.qstnFoot,
 		font: {fontSize: 14, fontFamily: "Arial"},
 		color:"#fff"
 	});
@@ -43,7 +43,7 @@ var table = function(){
 	});
 	
 	var ansHeadText =Ti.UI.createLabel({
-		text: loadFile.data.about.ansHeadTitle,
+		text: loadFile.data.about.ansHead,
 		font: {fontSize: 14, fontFamily: "Arial"},
 		color:"#fff"
 	});
@@ -56,7 +56,7 @@ var table = function(){
 	});
 	
 	var ansFootText =Ti.UI.createLabel({
-		text: loadFile.data.about.ansFootTitle,
+		text: loadFile.data.about.ansFoot,
 		font: {fontSize: 14, fontFamily: "Arial"},
 		color:"#fff"
 	});
@@ -79,38 +79,23 @@ var table = function(){
 	for(var i=0, j=loadFile.data.about.qstnAns.length; i<j; i++){
 		var row = Ti.UI.createTableViewRow({
 			title: loadFile.data.about.qstnAns[i].qstn,
-			hasChild:false
-		});
-		var row2 = Ti.UI.createTableViewRow({
-			title: loadFile.data.about.qstnAns[i].ansr,
+			ans: loadFile.data.about.qstnAns[i].ansr,
 			hasChild:false
 		});
 	qstnSection.add(row);
-	ansSection.add(row2);
-	};
-  
-	//creation of the close button to go back to the main window
+  };
 	
-	var closeButton = Ti.UI.createLabel({
-		text: "< Back",
-		backgroundColor:"#d8d8d8",
-		color:"#fff",
-		height:30,
-		font: {fontSize: 14, fontFamily: "Arial"},
-		width:"100%",
-		bottom:0,
-		textAlign:"center"
-	});
-	
-	var closeWindow = function(){
-		qstnWin.close();
-	};
-	
-	closeButton.addEventListener("click", closeWindow);
+	/*for(var k=0, l=loadFile.data.about.qstnAns.length; k<l; k++){
+		var row2 = Ti.UI.createTableViewRow({
+			title: loadFile.data.about.qstnAns[k].ansr,
+			hasChild:false
+		});
+	qstnSection.add(row2);
+  };*/
 	
 	table.setData(aboutSections);
 	
-	qstnWin.add(table,closeButton);
+	qstnWin.add(table);
 	qstnWin.open();
 };
 
