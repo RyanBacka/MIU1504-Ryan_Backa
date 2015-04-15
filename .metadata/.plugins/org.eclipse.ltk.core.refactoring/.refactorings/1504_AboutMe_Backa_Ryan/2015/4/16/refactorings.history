@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move 1 resources to &apos;Resources&apos;" description="Move 1 resources to &apos;Resources&apos;" destination="Resources" element1="JSON.js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1429071767926" updateReferences="true"/>
+<session version="1.0">&#x0A;<refactoring comment="Move 1 resources to &apos;Resources&apos;" description="Move 1 resources to &apos;Resources&apos;" destination="Resources" element1="JSON.js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1429071767926" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;1504_AboutMe_Backa_Ryan/Resources/functions&apos; to &apos;functions.js&apos;" description="Rename resource &apos;functions&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/functions" name="functions.js" stamp="1429071948958" updateReferences="true"/>
 </session>
