@@ -90,6 +90,3 @@ var table = function(){
 	
 	mainWin.add(table)
 };
-
-
-exports.table = table;

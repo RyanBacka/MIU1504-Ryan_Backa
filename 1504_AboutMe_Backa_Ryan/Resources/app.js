@@ -3,7 +3,7 @@
 //About Me 
 
 var mainWin = Ti.UI.createWindow({
-	backgroundColor:#fff
+	backgroundColor: "#fff"
 });
 
 //creation of title 
