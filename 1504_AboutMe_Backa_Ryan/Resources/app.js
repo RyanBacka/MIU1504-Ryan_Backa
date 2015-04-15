@@ -3,7 +3,8 @@
 //About Me 
 
 var mainWin = Ti.UI.createWindow({
-	backgroundColor: "#fff"
+	backgroundColor: "#fff",
+	scrollable: true
 });
 
 //creation of title 
@@ -20,8 +21,22 @@ var titleText = Ti.UI.createLabel({
 	center: titleView
 });
 
-var loadFunction = require("function");
+var buttonView = Ti.UI.createView({
+	top:titleView.top+titleView.height+40,
+	height:25,
+	backgroundColor:"#58db41"
+});
+
+var buttonText = Ti.UI.createLabel({
+	text:"Click for Questions and Answers",
+	textAlign:"center"
+});
+
+var fnctn = require("function");
+
+buttonView.add(buttonText);
+buttonView.addEventListener("click", fnctn.table);
 
 titleView.add(titleText);
-mainWin.add(titleView);
-mainWin.open;
+mainWin.add(titleView, buttonView);
+mainWin.open();

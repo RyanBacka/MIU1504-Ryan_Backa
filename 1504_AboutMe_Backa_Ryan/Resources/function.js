@@ -1,4 +1,8 @@
 var table = function(){
+	var qstnWin = Ti.UI.createWindow({
+		backgroundColor:"#fff",
+		scrollable: true
+	});
 
 	var loadFile = require("JSON");
 	
@@ -31,7 +35,7 @@ var table = function(){
 		color:"#fff"
 	});
 	
-	qstnFooter.add(qsntFootText);
+	qstnFooter.add(qstnFootText);
 	
 	var ansHeader = Ti.UI.createView({
 		height:50,
@@ -57,7 +61,7 @@ var table = function(){
 		color:"#fff"
 	});
 	
-	andFooter(ansFootText);
+	ansFooter.add(ansFootText);
 	
 	var qstnSection = Ti.UI.createTableViewSection({
 		headerTitle:qstnHeader,
@@ -71,22 +75,27 @@ var table = function(){
 	
 	var aboutSections = [qstnSection, ansSection];
 	
-	//creation of rows in tabe plus events to each row
+	//creation of rows in tabe 
 	for(var i=0, j=loadFile.data.about.qstnAns.length; i<j; i++){
 		var row = Ti.UI.createTableViewRow({
 			title: loadFile.data.about.qstnAns[i].qstn,
-			hasChild:true
+			hasChild:false
 		});
 	qstnSection.add(row);
-
-	for(var i=0, j=loadFile.data.about.qstnAns.length; i<j; i++){
-		var row = Ti.UI.createTableViewRow({
-			title: loadFile.data.about.qstnAns[i].ans,
-			hasChild:true
+  };
+	
+	for(var k=0, l=loadFile.data.about.qstnAns.length; k<l; k++){
+		var row2 = Ti.UI.createTableViewRow({
+			title: loadFile.data.about.qstnAns[k].ansr,
+			hasChild:false
 		});
-	ansSection.add(row);
+	qstnSection.add(row2);
+  };
 	
 	table.setData(aboutSections);
 	
-	mainWin.add(table)
+	qstnWin.add(table);
+	qstnWin.open();
 };
+
+exports.table = table;

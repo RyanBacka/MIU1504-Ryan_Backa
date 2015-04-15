@@ -1,0 +1,77 @@
+dependencies: \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiNetworkHTTPClientProxy.m \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiNetworkHTTPClientProxy.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/APSHTTPClient/APSHTTPClient.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/APSHTTPClient/APSHTTPRequest.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/APSHTTPClient/APSHTTPResponse.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/APSHTTPClient/APSHTTPPostForm.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/APSHTTPClient/APSHTTPHelper.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiProxy.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiBase.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiThreading.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiPublicAPI.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiEvaluator.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/KrollContext.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/headers/TiCore/TiCore.h \
+  headers/TiCore/Ti.h headers/TiCore/TiBase.h \
+  headers/TiCore/TiContextRef.h headers/TiCore/TiObjectRef.h \
+  headers/TiCore/TiValueRef.h headers/TiCore/WebKitAvailability.h \
+  headers/TiCore/TiStringRef.h headers/TiCore/TiStringRefCF.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/headers/TiCore/TiContextRefPrivate.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/KrollCallback.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/KrollObject.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiDOMDocumentProxy.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/GDataXMLNode.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/tree.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xmlversion.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xmlexports.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xmlstring.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xmlregexp.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/dict.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xmlmemory.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/threads.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/globals.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/parser.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/hash.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/valid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xmlerror.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/list.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xmlautomata.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/entities.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/encoding.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xmlIO.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/SAX.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xlink.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/SAX2.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xpath.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xpathInternals.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiDOMNodeProxy.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiBlob.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/NetworkModule.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiModule.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiUtils.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiDimension.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiColor.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/WebFont.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiFile.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiBuffer.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/Reachability.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiApp.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiHost.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/Bridge.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiStylesheet.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/KrollBridge.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/XHRBridge.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiRootViewController.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiControllerProtocols.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiViewProxy.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiUIView.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiAnimation.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiPoint.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/ListenerEntry.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/LayoutConstraint.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiGradient.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiRect.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/TiViewTemplate.h \
+  /Users/ryankbacka/Desktop/MIU1504-Ryan_Backa/1504_AboutMe_Backa_Ryan/build/iphone/Classes/Mimetypes.h
