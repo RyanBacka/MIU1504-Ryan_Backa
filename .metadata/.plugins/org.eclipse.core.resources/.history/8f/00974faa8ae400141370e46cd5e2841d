@@ -1,0 +1,26 @@
+//Ryan Backa
+//MIU 1504
+//Info App
+
+var mainWin = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var loadPage = require("album");
+
+var titleView = Ti.UI.createView({
+	top:0,
+	height:60,
+	backgroundColor: "#E8E8E8"
+});
+
+var titleText = Ti.UI.createLabel({
+	text:"Welcom to XYZ",
+	font: {fontSize: 14, fontFamily: "Arial" },
+	textAlign: "center",
+	bottom: 10
+});
+
+titleView.add(titleText);
+mainWin.add(titleView);
+mainWin.open();
