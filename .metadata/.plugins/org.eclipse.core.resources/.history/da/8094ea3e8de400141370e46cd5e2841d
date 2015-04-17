@@ -18,7 +18,7 @@ var titleText = Ti.UI.createLabel({
 	text:"Welcome to XYZ",
 	font: {fontSize: 18, fontFamily: "Arial" },
 	textAlign: "center",
-	bottom: 8
+	bottom: 10
 });
 
 var albumView = Ti.UI.createView({
@@ -38,8 +38,6 @@ var albumText = Ti.UI.createLabel({
 	font: {fontSize: 18, fontStyle: "bold" , fontFamily: "Arial"},
 	textAlign:"center"
 });
-
-
 
 albumView.add(albumText);
 titleView.add(titleText);

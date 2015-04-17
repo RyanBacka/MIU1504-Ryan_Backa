@@ -10,15 +10,15 @@ var loadPage = require("album");
 
 var titleView = Ti.UI.createView({
 	top:0,
-	height:50,
-	backgroundColor: "#D3D3D3"
+	height:60,
+	backgroundColor: "#E8E8E8"
 });
 
 var titleText = Ti.UI.createLabel({
 	text:"Welcome to XYZ",
-	font: {fontSize: 18, fontFamily: "Arial" },
+	font: {fontSize: 14, fontFamily: "Arial" },
 	textAlign: "center",
-	bottom: 8
+	bottom: 10
 });
 
 var albumView = Ti.UI.createView({
@@ -28,18 +28,16 @@ var albumView = Ti.UI.createView({
 	backgroundColor: "#fff",
 	left:30,
 	right:30,
-	top: titleView.top + titleView.height + 40,
+	top: titleView.top + titleView.height + 50,
 	height:50
 });
 
 var albumText = Ti.UI.createLabel({
 	text: "Choose Artist",
 	color: "#007FFF",
-	font: {fontSize: 18, fontStyle: "bold" , fontFamily: "Arial"},
+	font: {fontSize: 14, fontStyle: "bold" , fontFamily: "Arial"},
 	textAlign:"center"
 });
-
-
 
 albumView.add(albumText);
 titleView.add(titleText);

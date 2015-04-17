@@ -1,0 +1,30 @@
+//JSON data and export to app.js
+var data = {
+		"about":{
+			"artistInfo":[
+				{
+					"artist":"Offspring",
+					"album":"Smash",
+					"release":"April 8, 1994",
+					"genre":"Punk Rock",
+					"label":"Epitaph",
+				},{
+					"artist":"Green Day,
+					"ansr":"Dookie"
+				},{
+					"artist":"Sublime",
+					"ansr":"Sublime"
+				},{
+					"artist":"Deftones",
+					"ansr":"Around The Fur"
+				},{
+					"qstn":"Slipknot",
+					"ansr":"Slipknot"
+				},{
+					"qstn":"Fall Out Boy",
+					"ansr":"From Under The Cork Tree"
+			}]
+		}
+	};
+		
+exports.data = data;

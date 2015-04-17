@@ -39,8 +39,6 @@ var albumText = Ti.UI.createLabel({
 	textAlign:"center"
 });
 
-
-
 albumView.add(albumText);
 titleView.add(titleText);
 mainWin.add(titleView, albumView);
